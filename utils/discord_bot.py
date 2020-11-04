@@ -1,8 +1,12 @@
 import discord
 import os
 import images
+from utils import load_config
 
-channel = os.getenv("CHANNELID")
+config = load_config.load()
+
+channel = config['CHANNEL_ID']
+
 id = 0
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -37,4 +41,4 @@ class MyClient(discord.Client):
 
 def start():
   client = MyClient() 
-  client.run(os.getenv('BOT_TOKEN'))
+  client.run(config['TOKEN'])

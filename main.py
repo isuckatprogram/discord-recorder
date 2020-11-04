@@ -1,5 +1,4 @@
-import discord_bot as db
-import images
+from utils import discord_bot as db
 import reset
 
 

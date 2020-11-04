@@ -10,6 +10,7 @@ opencv-python = "^4.4.0"
 "discord.py" = "^1.5.1"
 flask = "^1.1.2"
 pylivestream = "^1.11.2"
+config = "^0.5.0"
 
 [tool.poetry.dev-dependencies]
 

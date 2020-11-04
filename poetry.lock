@@ -56,6 +56,14 @@ version = "7.1.2"
 
 [[package]]
 category = "main"
+description = "A hierarchical, easy-to-use, powerful configuration module for Python"
+name = "config"
+optional = false
+python-versions = "*"
+version = "0.5.0.post0"
+
+[[package]]
+category = "main"
 description = "A Python wrapper for the Discord API"
 name = "discord.py"
 optional = false
@@ -180,7 +188,7 @@ idna = ">=2.0"
 multidict = ">=4.0"
 
 [metadata]
-content-hash = "26e60eb45944ed8ae26591ef4784984f571d4bc9524fef48307de8e565e1d555"
+content-hash = "059d877baf133cbfc55f05a2a6c6a41043e3f3902a6d3447b71838cb04e963b1"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -214,6 +222,10 @@ chardet = [
 click = [
     {file = "click-7.1.2-py2.py3-none-any.whl", hash = "sha256:dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"},
     {file = "click-7.1.2.tar.gz", hash = "sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a"},
+]
+config = [
+    {file = "config-0.5.0.post0-py2.py3-none-any.whl", hash = "sha256:73ea4a8064facc61fcba736be71996aaa7f38a564166a284628b8e8c53444f2e"},
+    {file = "config-0.5.0.post0.zip", hash = "sha256:c7e48f9820758a4ddc23ae3bf10b118959f6fd06018be9eb0e1d9d5a3b227de1"},
 ]
 "discord.py" = [
     {file = "discord.py-1.5.1-py3-none-any.whl", hash = "sha256:2367359e31f6527f8a936751fc20b09d7495dd6a76b28c8fb13d4ca6c55b7563"},

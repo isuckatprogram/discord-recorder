@@ -1,6 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 import urllib.request
-import video
+from utils import video
 
 
 
